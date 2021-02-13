@@ -1,14 +1,14 @@
-7a11bb8232b765921977aaf7c89904ca *DESCRIPTION
-d28c005a9235ba02b732834fbb54061e *NAMESPACE
+c473fd3371244d082c58e88cab03f75e *DESCRIPTION
+ec1e934084264d066a9c1be9a831cea5 *NAMESPACE
 80d82fc0db54aa4b20ebf7114c41bd96 *R/data.R
-51e079d4fe7cf61384eb190f099e5ea1 *R/plot_cutoff.R
+2bee9852f5f2c04db3b29da080ad9739 *R/plot_cutoff.R
 ab78e022131eb6c6d68c13e0ed146811 *R/plot_gene.R
 89a485f7192aab4eb68c3af13b670c36 *R/plot_heatmap.R
-264f43e634b1f6b68c5942ee97b54a7f *R/plot_pathway.R
-c47068f4e3f1300980c1acac3636575b *R/plot_qq.R
-c74707ebb41d970fb33057ad05889a2f *R/plot_volcano.R
+20efa69f74b5a8101c0ccbfb449a3a62 *R/plot_pathway.R
+322b1c12c56e1d2c3903a41a25ea1b18 *R/plot_qq.R
+4caf91e29c985f6d7898bdb849335deb *R/plot_volcano.R
 50b50838de6bc702078bd5517448fbb4 *R/validate.input.R
-1403752ac41d73699dbfda31c7d3226f *README.md
+5529ab9304e072970a4a99ac8b098cb0 *README.md
 0552d40991162406ee83d43c6ea6cfad *build/vignette.rds
 26ceb6c6c52f7a9a6299d4fb6397096e *data/Sample_disease_gene_set.rda
 e0f4918c76815a5fe6307c83bf126702 *data/Sample_summary_statistics_table.rda
@@ -20,8 +20,8 @@ e0f4918c76815a5fe6307c83bf126702 *data/Sample_summary_statistics_table.rda
 098870034009618d89e8843501a566d2 *data/sample_count_cpm.rda
 e41ca10b2003b8afcda2780ef9527ab0 *data/wpA2020.rda
 66df72d37b13e96d63da392027e066ca *inst/doc/RVA.R
-0eb9f30a21b0faaaf40f88f6229fde1e *inst/doc/RVA.Rmd
-0fd9db23fd86d27bfde3ca48610c0e9f *inst/doc/RVA.html
+d0c08b650c57e694d236c0737d3e3583 *inst/doc/RVA.Rmd
+ec432391aa65b6add8b28d6ce1d35164 *inst/doc/RVA.html
 46acf77afa9662db51240106dd1695cd *man/Sample_disease_gene_set.Rd
 7d5f7e140973fdad01e49019b9e924c5 *man/Sample_summary_statistics_table.Rd
 3b25f4c8f7633d3cedb3eac9d66022eb *man/Sample_summary_statistics_table1.Rd
@@ -42,7 +42,7 @@ baef3a8a0f92dbc9eb3400ea2b922b9c *man/plot_gene.Rd
 13271b7a31d58f9068e7a3081896bd0c *man/plot_heatmap.cfb.Rd
 f1e7f62022424fb49c8aa7436bf56223 *man/plot_heatmap.cpm.Rd
 a18a5eac0d90a64f3bd6595f887e0242 *man/plot_heatmap.expr.Rd
-66996d977068a609a6bd0479099b3efc *man/plot_pathway.Rd
+9cb4dd4d36a12e7020f80681676df5f0 *man/plot_pathway.Rd
 ceae7436f75bda517b3d9724502848b8 *man/plot_qq.Rd
 d7cdc544cb4376cdd1881869924f51b5 *man/plot_volcano.Rd
 22f404db1af61edbbfeca3e658d11eed *man/prettyGraphs.Rd
@@ -72,4 +72,4 @@ b0123ae377802b7141f54a022fa973a4 *man/validate.pvals.Rd
 9ff892753002cfdc74078b037de9092b *man/validate.stats.Rd
 fcd3fc566cd3f674e7db4e65544dcf2c *man/validate.stats.cols.Rd
 652f7e4304c13d14dc5ba18f0cfa55e8 *man/wpA2020.Rd
-0eb9f30a21b0faaaf40f88f6229fde1e *vignettes/RVA.Rmd
+d0c08b650c57e694d236c0737d3e3583 *vignettes/RVA.Rmd

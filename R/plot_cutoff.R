@@ -271,6 +271,7 @@ get.cutoff.ggplot <- function(df, FCflag, FDRflag) {
 #' @importFrom haven as_factor
 #' @importFrom purrr map2 set_names map
 #' @importFrom rlang .data
+#' @importFrom stats complete.cases
 
 get.cutoff.df <- function(datin,
                           pvalues,
@@ -283,6 +284,7 @@ get.cutoff.df <- function(datin,
     stats::setNames(c("pvalue","FC"))
 
   datin <- datin[,c(FDRflag,FCflag)] %>% stats::setNames(c("DAT_FDR","DAT_FC"))
+  datin <- datin[complete.cases(datin), ] #only plot complete cases in the result
 
   get.gene.num <- function(FC, pvalue, FCflag, FDRflag){
     num.pass <- datin %>%

@@ -1,6 +1,6 @@
 Package: RVA
 Title: RNAseq Visualization Automation
-Version: 0.0.3
+Version: 0.0.4
 Authors@R: 
     person(given = "Xingpeng",
            family = "Li",
@@ -27,7 +27,7 @@ Imports: GSVAdata (>= 1.22.0), clusterProfiler (>= 3.14.3), data.table
         1.1.0), XML, rlang
 Depends: R (>= 2.10)
 NeedsCompilation: no
-Packaged: 2020-12-09 15:06:22 UTC; LIX410
+Packaged: 2021-02-12 19:08:57 UTC; LIX410
 Author: Xingpeng Li [aut, cre] (<https://orcid.org/0000-0002-1331-1225>)
 Repository: CRAN
-Date/Publication: 2020-12-10 15:50:12 UTC
+Date/Publication: 2021-02-13 06:10:08 UTC
